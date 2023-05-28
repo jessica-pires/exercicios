@@ -1,0 +1,33 @@
+ 
+
+ /* em HTML Id em CSS é #
+ em HTML ´e class em CSS É .
+ O nome das clases e id devem ser dados pelas funções que eles vão exercer.
+ Podemos usar mais de uma classe n mesmo elemento.
+ */
+
+ BODY{
+    background-color: #7fffd48c;
+ }
+ h1{
+    background-color:  #396d5b;
+    color: white;
+    text-align: center;
+ }
+ h2{
+  color:  #203d34;
+
+ } 
+ 
+  #principal{
+
+    text-decoration: underline;
+  }
+
+  .basico{
+    background-color: #0e1b17;
+    color: aliceblue;
+  }
+
+
+ 
