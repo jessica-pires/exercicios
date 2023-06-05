@@ -1,0 +1,42 @@
+
+/* CSS para telas */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+header{
+}
+header h1{
+    text-align: center;
+    padding: 5px;
+    background-color: #9cc5d3;
+
+}
+menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    
+    background-color: #6a8892 ;
+    color: white;
+    /* padding: 10px; */
+    list-style-type: none;/* ocultar bolinha de cada lista */
+}
+menu ul li{
+    background-color: #4e646c;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+article{
+    width: 600px;
+    margin: auto;
+    display: block;
+   
+}

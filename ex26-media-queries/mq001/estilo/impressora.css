@@ -1,0 +1,21 @@
+
+/* CSS para impressora */
+*{
+    margin: 10px;
+    padding: 10px;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+menu{
+    display: none;/* OCUTAR MENU NA IMPRESSAO */
+}
+article{
+    width: 100%;
+}
+
+article::after{    /* mostrar nota na impressao ápos o article */
+    content: "esse artigo foi impresso atraves do site www.cursoemvideo.com";
+}
