@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formúlario</title>
+</head>
+<body>
+    <h1>caixa de verificação</h1>
+    <form action="cadastro.php" method="post">
+    <fieldset>
+        <legend>Seus Favoritos</legend>
+        <input type="checkbox" id="opcao1" name="opcao1" value="valor1">
+        <label for="opcao1">Opção 1</label><br>
+        
+        <input type="checkbox" id="opcao2" name="opcao2" value="valor2">
+        <label for="opcao2">Opção 2</label>
+
+        
+
+
+
+        </form>
+    </fieldset>    
+
+    <form action="cadastro.php">
+
+        <fieldset>
+            <legend>Alternativas</legend>
+
+            <input type="checkbox" name="fute" id="fute" value="fute">
+            <label for="fute">Futebol</label><br>
+            <input type="checkbox" name="basq" id="basq" value="basq">
+        <label for="basq">Basquete</label> <br>    
+        <input type="checkbox" id="vol" name="vol" value="vol">
+        <label for="vol">Volei</label>   
+    </fieldset>
+    <fieldset>
+        <legend>escolha:</legend>
+        <input type="radio" name="sexo" id="opcao01" value="feminino">
+        <label for="opcao">feminino</label><br>
+        <input type="radio" name="sexo" id="opcao02" value="masculino">
+        <label for="opcao">masculino</label>
+    </fieldset>
+    <input type="submit" value="Enviar">
+       
+
+    </form>
+</body>
+</html>
