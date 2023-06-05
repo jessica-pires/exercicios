@@ -1,22 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios</title>
-</head>
-<body>
-    <form action="cadastro.php" method="get" autocomplete="on">
-
-
-
-
-
-
-
-        
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formularios</title>
+    </head>
+    <body>
+        <h1>opcoes sem input</h1>
+        <!-- {opcao sem input} usa-se label e select /select   com option representando as opcoes clicavel -->
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <label for="iest">Estado</label><select name="estado" id="iest">
+            <p>
+                <option value=""disable>--escolha--</option>
+            <optgroup >
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio Janeiro</option>
+                <option value="SP">São Pulo</option>
+                </optgroup>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio Janeiro</option>
+                <option value="SP">São Pulo</option>
+                </optgroup> <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio Janeiro</option>
+                <option value="SP">São Pulo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio Janeiro</option>
+                <option value="SP">São Pulo</option>
+                </optgroup> <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio Janeiro</option>
+                <option value="SP">São Pulo</option>
+                </optgroup> <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio Janeiro</option>
+                <option value="SP">São Pulo</option>
+                </optgroup> <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio Janeiro</option>
+                <option value="SP">São Pulo</option>
+                </optgroup>
+                </optgroup>
+            </p>
+            </select>
+            <!-- opcoes  com sugestoes a medida que escreve DATALIST  -->
+            <H2>DATALIST</H2>
+            <p>
+                <label for="iprof">Profissão</label>
+                <input type="text" name="prof" id="iprof" list="listprof">
+                <datalist id="listprof">
+                    <option value="administrador">
+                    <option value="professor">
+                    <option value="corretor">
+                    <option value="desenvolvedor">
+                </datalist>
+            </p>
+            
     </form>
+        <form action="cadastro.php">
+            <label for="inputField">Selecione um opcao:</label>
+            <input type="text" id="inputField" list="options">
+        
+        <datalist id="options">
+            <option value="Option 1">
+                <option value="Option 2">
+                    <option value="Option 3">
+          <option value="Option 4">
+        </datalist><br>
+
+        <h2>caixa de mensagem</h2>
+
+     <!-- caixa de mensagen -->
+        <p>
+            <label for="msg">mensagem</label>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea><br>
+        </p>
+        <p>
+            <input type="submit"value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+    
     
 </body>
 </html>
