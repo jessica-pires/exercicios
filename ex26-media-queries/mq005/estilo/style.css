@@ -5,6 +5,37 @@
     font-family: 'Courier New', Courier, monospace;
 
 }
+
+@media screen and (min-width:768px) {
+    #icone_burguer{
+        display:none;
+    }
+    menu{
+        display: block;
+    }
+    .lista{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .lista__link{
+        list-style: none;
+        background-color:rgb(87, 87, 87);
+        padding: 2px;
+        
+       
+    }
+    .lista__link-botao{
+        text-decoration: none;
+        color: white;
+        
+    }
+    main{
+        width: 768px;
+    }
+}
+/* 
 body{
     background-color: rgba(169, 169, 169, 0.715);
 }
@@ -55,4 +86,4 @@ main{
 .texto{
     padding: 10px;
     
-}
+} */
